@@ -54,14 +54,16 @@ nav .left a {
   .hero-section {
     display: flex;
     justify-content: space-between;
+    padding: 0 50px;
     align-items: center;
     margin: 50px 0;
     margin-bottom: 100px;
     gap: 40px;
+    font-size: 15px;
   }
   
   .hero-section .text {
-    flex: 5;
+    padding: 0 20px;
   }
   
   .hero-section .text h2 {
@@ -134,6 +136,12 @@ nav .left a {
   .skills-section .cells .cell img {
     width: 30px;
     height: 30px;
+    object-fit: contain;
+    border-radius: 2px;
+  }
+  .skills-section .cells .cell img:last-child {
+    width: 90px;
+    height: 800px;
     object-fit: contain;
     border-radius: 2px;
   }
